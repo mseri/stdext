@@ -6,7 +6,6 @@
    (modules (stdext))
    (wrapped false)
    (libraries (xapi-stdext-base64
-               xapi-stdext-bigbuffer
                xapi-stdext-date
                xapi-stdext-deprecated
                xapi-stdext-encodings
@@ -15,7 +14,6 @@
                xapi-stdext-range
                xapi-stdext-std
                xapi-stdext-threads
-               xapi-stdext-unix
-               xapi-stdext-zerocheck))
+               xapi-stdext-unix))
    ))
 
